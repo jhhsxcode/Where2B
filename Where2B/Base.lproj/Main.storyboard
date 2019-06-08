@@ -131,9 +131,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Four" translatesAutoresizingMaskIntoConstraints="NO" id="8tF-bN-MF8">
-                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PSj-9x-RcK">
                                 <rect key="frame" x="28" y="44" width="160" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -147,12 +144,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="8tF-bN-MF8" firstAttribute="top" secondItem="1AQ-Yk-GH9" secondAttribute="top" id="Tsf-g7-rdf"/>
-                            <constraint firstItem="8tF-bN-MF8" firstAttribute="trailing" secondItem="10b-OV-Mg1" secondAttribute="trailing" id="kwN-4U-XVn"/>
-                            <constraint firstItem="8tF-bN-MF8" firstAttribute="leading" secondItem="10b-OV-Mg1" secondAttribute="leading" id="s8T-6o-3Fi"/>
-                            <constraint firstAttribute="bottom" secondItem="8tF-bN-MF8" secondAttribute="bottom" id="xNL-LP-UoD"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="10b-OV-Mg1"/>
                     </view>
                 </viewController>
@@ -162,7 +153,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Four" width="1462" height="3189"/>
         <image name="One" width="1469" height="3162"/>
         <image name="Three" width="1493" height="3127"/>
         <image name="Two" width="1478" height="3072"/>
